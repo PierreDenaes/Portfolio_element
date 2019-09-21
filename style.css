@@ -1,0 +1,388 @@
+@import url("https://fonts.googleapis.com/css?family=Libre+Franklin:400,900i");
+@import url("https://fonts.googleapis.com/css?family=Orbitron");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Libre Franklin", sans-serif;
+}
+.scrollup {
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  display: none;
+  color: #605b55;
+  background-color: rgb(245, 239, 220, 0.5);
+  border: 1px solid #f5efdc;
+  border-radius: 50%;
+  font-size: 30px;
+  text-align: center;
+  line-height: 55px;
+  z-index: 1000;
+}
+.scrollup:hover {
+  color: white;
+}
+.navbar-nav {
+  margin-left: auto;
+  margin-right: auto;
+}
+.nav-link {
+  font-size: 1.5em;
+}
+.nav-item {
+  text-align: center;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: #605b55;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #e6d8b4;
+  background-color: #605b55;
+}
+.custom-toggler.navbar-toggler {
+  border-color: #f5efdc;
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(229, 215, 182)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.fixed-top {
+  border-bottom: 1px solid #f5efdc;
+}
+/*section about*/
+.fond-image1 {
+  background-image: url("https://raw.githubusercontent.com/PierreDenaes/Portfolio_element/master/background_fond/font4.png");
+  box-shadow: inset 2000px 0 0 0 rgba(37, 38, 31, 0.6);
+  background-attachment: fixed;
+  height: 100vh;
+}
+.para {
+  margin-top: 18%;
+}
+.portrait {
+  width: 250px;
+  border: 6px solid #605b55;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50%;
+}
+@media screen and (max-width: 768px) {
+  .portrait {
+    margin-top: 10%;
+    margin-bottom: -10%;
+  }
+}
+h1 {
+  color: #f5efdc;
+  font-weight: bold;
+  text-align: right;
+}
+.pfirst {
+  color: #e6d8b4;
+  font-size: 1.5em;
+  text-align: right;
+}
+.psecond {
+  color: #e6d8b4;
+  font-size: 1.5em;
+  text-align: left;
+}
+@media screen and (max-width: 768px) {
+  h1,
+  .pfirst,
+  .psecond {
+    text-align: center;
+  }
+}
+.divider {
+  width: 8%;
+  height: 2px;
+  background: #21221d;
+  margin: 40px auto;
+}
+.divider2 {
+  width: 8%;
+  height: 2px;
+  background: #f5efdc;
+  margin: 40px auto;
+}
+/*section WIdo*/
+.fond-image2 {
+  text-align: center;
+  background-image: url("https://raw.githubusercontent.com/PierreDenaes/Portfolio_element/master/background_fond/font7.png");
+  background-attachment: fixed;
+  box-shadow: inset 2000px 0 0 0 rgba(245, 239, 220, 0.7);
+}
+h2,
+h3 {
+  display: inline-block;
+  font-size: 3em;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  color: #21221d;
+  font-weight: bold;
+}
+@media screen and (max-width: 768px) {
+  h2,
+  h3 {
+    font-size: 2em;
+  }
+}
+.color {
+  color: #f5efdc;
+}
+.icon1 {
+  width: 20%;
+  margin-bottom: 4%;
+}
+.wid {
+  display: block;
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-bottom: 2%;
+}
+.para2 {
+  padding-left: 4%;
+  padding-right: 4%;
+  list-style: none;
+  padding-bottom: 3%;
+  font-size: 1.1em;
+}
+/*section work*/
+.margincarous {
+  margin-top: 3%;
+  margin-bottom: 5%;
+}
+.fond-image3 {
+  background-image: url("https://raw.githubusercontent.com/PierreDenaes/Portfolio_element/master/background_fond/font4.png");
+  box-shadow: inset 2000px 0 0 0 rgba(245, 239, 220, 0.5);
+  background-attachment: fixed;
+  text-align: center;
+  border-top: 1px solid #605b55;
+}
+.roundborder {
+  border-radius: 7px;
+  border: 2px solid rgba(37, 38, 31, 0.5);
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+.carousel-control-prev-icon {
+  margin-right: 170%;
+}
+.carousel-control-next-icon {
+  margin-left: 170%;
+}
+.carousel-control-next-icon:after {
+  content: ">";
+  font-size: 4em;
+  font-weight: bold;
+  color: #21221d;
+  -webkit-text-stroke: 0.1px #f5efdc;
+}
+
+.carousel-control-prev-icon:after {
+  content: "<";
+  font-size: 4em;
+  font-weight: bold;
+  color: #21221d;
+  -webkit-text-stroke: 0.1px #f5efdc;
+}
+@media screen and (max-width: 768px) {
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    outline: black;
+    background-size: 100%, 100%;
+    background-image: none;
+  }
+  .carousel-control-next-icon:after {
+    content: ">";
+    font-size: 2em;
+    font-weight: bold;
+    color: #21221d;
+  }
+
+  .carousel-control-prev-icon:after {
+    content: "<";
+    font-size: 2em;
+    font-weight: bold;
+    color: #21221d;
+  }
+}
+.carousel-indicators li {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin: 1%;
+  text-indent: 0;
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+  background-color: #21221d;
+  box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+.carousel-indicators .active {
+  width: 18px;
+  height: 18px;
+  margin: 1%;
+  background-color: #f5efdc;
+}
+.carousel-caption,
+h5 p {
+  color: #e6d8b4;
+  font-weight: bold;
+  margin-bottom: 2%;
+  width: 20%;
+  margin: 20px auto 50px auto;
+  background-color: rgba(37, 38, 31, 0.9);
+  border-radius: 7px;
+}
+/* section skills */
+
+.fond-image4 {
+  background-image: url("https://raw.githubusercontent.com/PierreDenaes/Portfolio_element/master/background_fond/font7.png");
+  box-shadow: inset 2000px 0 0 0 rgba(245, 239, 220, 0.2);
+  background-attachment: fixed;
+  text-align: center;
+  padding-bottom: 3%;
+  border-top: 1px solid #605b55;
+}
+h4 {
+  display: inline-block;
+  margin-top: 1%;
+  margin-bottom: 3%;
+  font-weight: bold;
+  font-size: 3em;
+  color: #f5efdc;
+}
+@media screen and (max-width: 768px) {
+  h4 {
+    font-size: 2em;
+  }
+}
+#skills .progress {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 3%;
+  height: 20%;
+  background-color: #f5efdc;
+  border: 1px solid #605b55;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.5);
+}
+#skills .progress-bar {
+  background-color: #21221d;
+}
+#skills .progress-bar h5 {
+  color: #e6d8b4;
+  padding-top: 2%;
+  padding-bottom: -1%;
+  font-family: "Orbitron", sans-serif;
+  font-size: 1.4em;
+}
+@media screen and (max-width: 1024px) {
+  #skills .progress-bar h5 {
+    font-size: 1em;
+  }
+}
+@media screen and (max-width: 768px) {
+  #skills .progress-bar h5 {
+    font-size: 0.8em;
+    padding-top: 3%;
+  }
+}
+/* section contact */
+#contact {
+  text-align: center;
+}
+.h6contact {
+  font-size: 3em;
+  margin-top: 1%;
+  margin-bottom: 5%;
+  color: black;
+}
+@media screen and (max-width: 768px) {
+  .h6contact {
+    font-size: 2em;
+  }
+}
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 100%;
+  position: relative;
+  height: 100%;
+}
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.fond-image5 {
+  background-image: url("https://raw.githubusercontent.com/PierreDenaes/Portfolio_element/master/background_fond/font4.png");
+  background-size: cover;
+  box-shadow: inset 2000px 0 0 0 rgba(255, 255, 255, 0.3);
+  border-top: 1px solid #605b55;
+}
+.section6pad {
+  padding: 0;
+  border-top: 1px solid #605b55;
+}
+.contactMe {
+  box-shadow: inset 2000px 0 0 0 rgba(37, 38, 31, 0.7);
+  margin: 5%;
+}
+.wu {
+  display: block;
+  font-size: 2.5em;
+  font-weight: bold;
+  padding-top: 5%;
+  padding-bottom: 3%;
+}
+@media screen and (max-width: 768px) {
+  .wu {
+    font-size: 1.9em;
+  }
+}
+.fond-image6 {
+  background-image: url("https://raw.githubusercontent.com/PierreDenaes/Portfolio_element/master/background_fond/font7.png");
+  box-shadow: inset 2000px 0 0 0 rgba(245, 239, 220, 0.1);
+  background-attachment: fixed;
+}
+label {
+  margin-top: 2%;
+  font-size: 1.5em;
+  color: #f5efdc;
+}
+input {
+  text-align: center;
+}
+#submit {
+  margin: 10%;
+}
+/*section network */
+.fbox {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: rgba(37, 38, 31, 0.9);
+}
+i:hover {
+  color: #e6d8b4;
+  -webkit-text-stroke: 0.5px #f5efdc;
+}
+.end {
+  background-color: #f5efdc;
+  text-align: center;
+}
